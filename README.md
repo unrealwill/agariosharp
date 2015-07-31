@@ -7,8 +7,8 @@ I tried to stay as minimal as possible.
 
 Look at AgarioGUI for example of how to use.
 
-Clone, 
 Clone websocket-sharp master branch and build it 
+Clone agariosharp
 (The nuget version has a bug that prevents websockets to work on port 443 that agar.io sometimes use)
 reference the websocket-sharp library you just built
 Set AgarioGUI as startup project then build And run
