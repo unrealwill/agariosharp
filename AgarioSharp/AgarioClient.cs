@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using System.Net.Http;
 using System.Collections.Generic;
 
-//As time of writing the WebSocketSharp nuget package has issues with ws:// on port 443 which agario sometimes use
+//At time of writing the WebSocketSharp nuget package has issues with ws:// on port 443 which agar.io sometimes use
 //It is corrected on their github master branch so you should pull this branch build from source and reference the built library
 using WebSocketSharp;
 using System.Linq;
