@@ -16,7 +16,7 @@ using System.Threading;
 using System.Net;
 using System.Text;
 
-namespace AgarioLib
+namespace AgarioLib 
 {
 
     public class WorldState
