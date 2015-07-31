@@ -36,3 +36,6 @@ w to eject <br/>
 I won't probably update the code frequently <br/>
 
 Happy botting <br/>
+
+License
+MIT
