@@ -15,7 +15,11 @@ Set AgarioGUI as startup project then build And run <br/>
 
 Not all functionnalities are yet implemented but the game is functionnal.
 
-It is for Mono (linux) as it uses Gtk. Although could easily be adapted to windows.
+It is for Mono (linux) as it uses Gtk<br/>
+It is not thread safe but all processing is handled in the main (gui) thread. 
+So you must access AgarioClient from the main (gui) thread and you shouldn't encounter threading issues.
+
+It can easily be adapted to windows by using Application instead of Gtk.Application <br/>
 
 
 It connects to the official servers.
