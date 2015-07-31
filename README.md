@@ -7,13 +7,13 @@ I tried to stay as minimal as possible. <br/>
 
 Look at AgarioGUI for example of how to use. <br/>
 
-Clone websocket-sharp master branch and build it <br/>
 Clone agariosharp <br/>
+Clone websocket-sharp master branch and build it : https://github.com/sta/websocket-sharp <br/>
 (The nuget version has a bug that prevents websockets to work on port 443 that agar.io sometimes use) <br/>
-reference the websocket-sharp library you just built <br/>
+Reference the websocket-sharp library you just built <br/>
 Set AgarioGUI as startup project then build And run <br/>
 
-Not all functionnalities are yet implemented but the game is functionnal.
+Not all functionnalities are yet implemented (scores and leaderboard are missing for the moment) but the game is functionnal.
 
 It is for Mono (linux) as it uses Gtk<br/>
 It is not thread safe but all processing is handled in the main (gui) thread. 
